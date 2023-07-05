@@ -31,16 +31,12 @@ const NavLink = styled.span`
   }
 `;
 
-interface HeaderProps {
-  title: string;
-}
-
-const Header: React.FC<HeaderProps> = ({ title }) => {
+const Header: React.FC = () => {
   return (
     <Wrapper>
       <Title>
         <Link href="/portfolio">
-          <NavLink>{title}</NavLink>
+          <NavLink>Майя Колесникова</NavLink>
         </Link>
       </Title>
       <Nav>

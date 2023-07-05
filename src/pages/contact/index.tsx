@@ -61,7 +61,7 @@ const ContactLink = styled.a`
 const ContactPage: React.FC = () => {
   return (
     <>
-      <Header title="Майя Колесникова" />
+      <Header />
       <Wrapper>
         <Title>Контакты</Title>
         <ContactList>

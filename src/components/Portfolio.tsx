@@ -61,7 +61,7 @@ const Year = styled.span`
 `;
 
 interface PortfolioItem {
-  id: number;
+  id: string;
   image: string;
   description: string;
   title: string;
